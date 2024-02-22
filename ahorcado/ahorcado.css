@@ -1,0 +1,89 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#game-logo {
+    border-radius: 50%;
+    margin-top: 15px;
+    width: 125px;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: #86c232;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+    color: var(--first-color);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    height: 80vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+section{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 1rem;
+    width: 40%;
+}
+
+#lienzo{
+    
+    border: 2px solid rgb(5, 132, 236);
+    width: 670px;
+    height: 300px;
+}
+
+input [classname="texto"]{
+    border-radius: 5%;
+    background-color: black;
+}
+
+input#letra{
+    font-size: 250%;
+    width: 100%;
+    margin: 5%;
+    text-align: center;
+    height: 20%;
+    background-color: rgb(200, 198, 198);
+
+}
+
+input#boton{
+    font-size: 250%;
+    width: 100%;
+    margin: 5%;
+    background-color: rgb(84, 175, 250);
+    color: white;
+    font-size: 1.7rem;
+    padding: 0.4rem;
+
+}
+
+
+
+div{
+    font-size: 1.7rem;
+    margin: 0.5rem;
+    padding: 0.03rem;
+}
+
+div#vida{
+    color: black;
+}
+
+div#frase {
+    align-items: center;
+    border: 1px solid slateblue;
+    
+}
